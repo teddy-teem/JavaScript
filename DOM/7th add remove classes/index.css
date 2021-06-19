@@ -1,0 +1,81 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: lightseagreen;
+    transition: 5s;
+}
+
+
+
+
+.btn button{
+    position: absolute;
+    left: 50%;
+    background-color: darkgreen;
+    padding: 20px;
+    text-align: center;
+    border: none;
+    width: 100px;
+    color: darkkhaki;
+    font-weight: 800;
+    font-size: 25px;
+    border-radius: 25px;
+}
+
+.btn button:hover{
+    cursor: pointer;
+    box-shadow: 0 15px 15px rgb(34, 33, 33);
+}
+.popup{
+    background-color: rgb(238, 234, 234);
+    width: 50vw;
+    height: 50vh;
+    position: relative;
+    top: 20vh;
+    left: 30vw;
+    padding: 2%;
+    text-align: center;
+    display: block;
+
+    border: none;
+    box-shadow: 15px 15px 50px rgb(243, 241, 241);
+
+}
+
+.btn-container{
+    padding-bottom: 50px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+
+}
+#dbtn1{
+    padding: 2%;
+    width: 150px;
+    background-color: rgb(42, 165, 83);
+    box-sizing: border-box;
+    font-size: 25px;
+    cursor: pointer;
+    border: none;
+    
+}
+#dbtn2{
+    padding: 2%;
+    font-size: 25px;
+    width: 150px;
+    background-color: rgb(216, 24, 11);
+    box-sizing: border-box;
+    border: none;
+    cursor: pointer;
+}
+
+#dbtn1:hover{
+    border: 1 px solid black;
+    box-shadow: 0 15px 50px rgb(80, 79, 79);
+}
+#dbtn2:hover{
+    border: 1px solid black;
+    box-shadow: 0 15px 50px rgb(80, 79, 79);
+}

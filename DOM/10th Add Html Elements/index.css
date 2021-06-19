@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: lightgreen;
+}
+
+.input {
+  text-align: center;
+}
+
+.input #text {
+  height: 40px;
+  width: 360px;
+  margin-top: 100px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 5px;
+  text-align: center;
+  border: none;
+  font-size: 20px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.input #text:hover {
+  -webkit-box-shadow: 0 15px 50px maroon;
+          box-shadow: 0 15px 50px maroon;
+}
+
+.button {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.button #btn, .button #btn2 {
+  background-color: cadetblue;
+  height: 40px;
+  width: 180px;
+  text-align: center;
+  font-size: 20px;
+  font-family: 'Courier New', Courier, monospace;
+  border: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.button #btn:hover, .button #btn2:hover {
+  opacity: .5;
+  border: 1px solid maroon;
+  -webkit-box-shadow: 0 15px 50px maroon;
+          box-shadow: 0 15px 50px maroon;
+  font-weight: 1000;
+  color: maroon;
+  cursor: pointer;
+}
+
+.button #btn2 {
+  background-color: #ca1d1d;
+}
+
+.list {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.list #ul {
+  list-style: none;
+}
+
+.list #ul li {
+  background-color: maroon;
+  margin-top: 5px;
+  margin-left: 25vw;
+  margin-right: 25vw;
+  color: white;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  border: white;
+  border-radius: 5px;
+}
+
+.list #ul li:hover {
+  cursor: pointer;
+  opacity: .8;
+  font-size: 25px;
+  color: yellowgreen;
+  font-weight: 800;
+}
+/*# sourceMappingURL=index.css.map */

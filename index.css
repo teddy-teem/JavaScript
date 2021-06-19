@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+* a {
+  text-decoration: none;
+}
+
+.nav {
+  background-color: cornflowerblue;
+  border: 1px solid #110000;
+  text-align: center;
+  height: 20px;
+  padding: 20px;
+}
+
+.nav h1 {
+  font-size: 18px;
+  color: white;
+  letter-spacing: 15px;
+  text-transform: uppercase;
+  text-shadow: #801a00;
+}
+
+.nav:hover {
+  -webkit-box-shadow: 0 5px 50px hotpink;
+          box-shadow: 0 5px 50px hotpink;
+  cursor: pointer;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.container {
+  text-align: center;
+  margin-top: 10%;
+  margin-left: 20vw;
+  margin-right: 20vw;
+  background-color: cadetblue;
+  padding: 25px;
+}
+
+.container h1 {
+  color: #800606;
+  font-weight: 800;
+  margin-bottom: 10px;
+  border: 1px dotted white;
+  margin-bottom: 50px;
+}
+
+.container input {
+  padding: 10px;
+  width: 80%;
+  border: none;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  font-size: 18px;
+}
+
+.container input:hover {
+  border: white;
+  -webkit-box-shadow: 0 5px 50px #0650be;
+          box-shadow: 0 5px 50px #0650be;
+  width: 85%;
+  height: 30px;
+  border: 1px solid #0650be;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.container button {
+  margin-top: 10px;
+  background-color: #1f4fa8;
+  border: none;
+  width: 80px;
+  height: 40px;
+  color: white;
+  font-weight: 800;
+  font-size: 18px;
+  border-radius: 8px;
+}
+
+.container button:hover {
+  cursor: pointer;
+  width: 100px;
+  height: 50px;
+  border: 1px solid hotpink;
+  -webkit-box-shadow: 0 5px 50px hotpink;
+          box-shadow: 0 5px 50px hotpink;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.container:hover {
+  -webkit-transition: 1s;
+  transition: 1s;
+  border: 2px solid hotpink;
+  -webkit-box-shadow: 0 15px 100px  hotpink;
+          box-shadow: 0 15px 100px  hotpink;
+}
+
+@media screen and (min-width: 700px) {
+  .container {
+    margin-left: 30vw;
+    margin-right: 30vw;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .container {
+    margin-left: 20vw;
+    margin-right: 20vw;
+  }
+}
+/*# sourceMappingURL=index.css.map */

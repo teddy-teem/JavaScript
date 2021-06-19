@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: lightgreen;
+}
+
+.btn {
+  background-color: lightgrey;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 10%;
+  width: 100vw;
+  padding: 10px;
+  position: absolute;
+  position: fixed;
+}
+
+.btn #fontInc {
+  background-color: green;
+  font-size: 25px;
+  padding: 5px;
+  width: 250px;
+  border: none;
+  margin-right: 10px;
+}
+
+.btn #fontInc:hover {
+  cursor: pointer;
+  -webkit-box-shadow: 0 15px 15px 5px;
+          box-shadow: 0 15px 15px 5px;
+  text-transform: uppercase;
+}
+
+.btn #fontDec {
+  background-color: green;
+  font-size: 25px;
+  padding: 5px;
+  width: 250px;
+  margin-left: 10px;
+  border: none;
+}
+
+.btn #fontDec:hover {
+  cursor: pointer;
+  -webkit-box-shadow: 0 15px 15px 5px;
+          box-shadow: 0 15px 15px 5px;
+  text-transform: uppercase;
+}
+
+.text {
+  position: relative;
+  top: 400px;
+}
+
+.text #para {
+  text-align: center;
+}
+/*# sourceMappingURL=index.css.map */

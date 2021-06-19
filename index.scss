@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+
+    a{
+        text-decoration: none;
+    }
+}
+
+.nav{
+    background-color: cornflowerblue;
+    border: 1px solid rgb(17, 0, 0);
+    text-align: center;
+    height: 20px;
+    padding: 20px;
+    h1{
+        font-size: 18px;
+        color: white;
+        letter-spacing: 15px;
+        text-transform: uppercase;
+       text-shadow: rgb(128, 26, 0);
+
+    }
+    &:hover{
+        box-shadow: 0 5px 50px hotpink;
+        cursor: pointer;
+        transition: 1s;
+    }
+}
+
+.container{
+    text-align: center;
+    margin-top: 10%;
+    margin-left: 20vw;
+    margin-right: 20vw;
+    background-color: cadetblue;
+    padding: 25px;
+    h1{
+        color: rgb(128, 6, 6);
+        font-weight: 800;
+        margin-bottom: 10px;
+        border: 1px dotted white;
+        margin-bottom: 50px;
+    }
+    input{
+        padding: 10px;
+        width: 80%;
+        border: none;
+        margin-bottom: 10px;
+        border-radius: 5px;
+        font-size: 18px;
+        
+        &:hover{
+            border: white;
+            box-shadow: 0 5px 50px rgb(6, 80, 190);
+            width: 85%;
+            height: 30px;
+            border: 1px solid rgb(6, 80, 190);
+            transition: 1s;
+        }
+    }
+    button{
+        margin-top: 10px;
+        background-color: rgb(31, 79, 168);
+        border: none;
+        width: 80px;
+        height: 40px;
+        color: white;
+        font-weight: 800;
+        font-size: 18px;
+        border-radius: 8px;
+        &:hover{
+            cursor: pointer;
+            width: 100px;
+            height: 50px;
+            border: 1px solid hotpink;
+            box-shadow: 0 5px 50px hotpink;
+            transition: 1s;
+
+
+        }
+    }
+    &:hover{
+        transition: 1s;
+        border: 2px solid hotpink;
+        box-shadow: 0 15px 100px  hotpink;
+    }
+}
+
+@media screen and (min-width: 700px){
+    .container{
+        margin-left: 30vw;
+        margin-right: 30vw;
+    }
+}
+
+@media screen and (max-width: 400px){
+    .container{
+        margin-left: 20vw;
+        margin-right: 20vw;
+    }
+}
+
