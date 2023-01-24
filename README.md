@@ -35,3 +35,12 @@ Eexample bellow.
 > console.log(+"1" +  "1" + "3"); //ans: 113
 > console.log( "A" - "B" + "2"); //ans: NaN2
 > ```
+
+## Sort
+> ```
+> const a = [1,5,2,10,3];
+> console.log(a.sort()); //[1,10,2,3,5];
+> ```
+> if we ommitted the comparison function from sort(), the array elements are converted to strings, then sorted according to each character’s Unicode code point value.
+
+
